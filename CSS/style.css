@@ -1,0 +1,42 @@
+html,body{
+  overflow-x:hidden;
+}
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Varela Round",Helvetica, Arial, sans-serif;
+}
+h2{
+  font-size: 28px;
+  font-weight:normal;
+  margin-bottom: 5px;
+}
+p{
+  font-size: 16px;
+  line-height: 19px
+  font-weight:100;
+}
+.Container{
+  margin-left: auto;
+  margin-right: auto;
+  pedding-left:15px;
+  pedding-right:15px;
+  position: relative;
+}
+.Container:after
+.Container:before {
+  content:"";
+  display: table;
+}
+.Container:after {
+  clear:both;
+}
+.one-half, .one-third, .one-fourth {
+  width:96%;
+  float:left;
+  position:relative;
+  min-height: 1px;
+  margin: 0 2% 20px;
+}
