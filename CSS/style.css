@@ -240,6 +240,7 @@ header .hero img {
     line-height: 15px;
     font-style:italic;
     text-align: middle;
+    margin-top: auto;
   }
   /* TESTIMONIALS */
    .testimonials {
