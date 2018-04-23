@@ -40,30 +40,6 @@ p{
   min-height: 1px;
   margin: 0 2% 20px;
 }
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-  .one-half {
-    width:46%;
-  }
-  .one-third {
-    width:29.33333%;
-  }
-  .one-fourth {
-    width:21%;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
 /* HEADER */
 header {
   color:#FFFFFF;
@@ -98,6 +74,47 @@ header nav ul>li>a {
 }
 header nav ul>li.btn-outline:hover > a {
   color: #34495E;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .one-half {
+    width:46%;
+  }
+  .one-third {
+    width:29.33333%;
+  }
+  .one-fourth {
+    width:21%;
+  }
+  header nav .one-half {
+  text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (max-width:992px) {
+  header .container .one-half img{
+    width: 50%;
+  }
+  header .container .one-half {
+    width: 46%;
+  }
+  header nav ul {
+    text-align: center;
+  }
+  header nav ul > li.btn-outline{
+    margin-top: 10px;
+  }
 }
 header .hero {
   text-align: center;
@@ -369,9 +386,6 @@ footer .logo{
    }
    footer .logo{
      padding: 0;
-   }
-   header .container .one-half img{
-     width: 60%;
    }
  }
  /* DASHBOARD */
