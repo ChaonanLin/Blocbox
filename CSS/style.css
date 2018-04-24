@@ -103,17 +103,22 @@ header nav ul>li.btn-outline:hover > a {
   }
 }
 @media (max-width:992px) {
-  header .container .one-half img{
-    width: 50%;
+  header .container .one-half .Site_logo{
+    width: 30%;
+    float: none;
   }
   header .container .one-half {
-    width: 46%;
+    width: 96%;
+  }
+  header nav .one-half {
+    text-align: center;
+    float: none;
   }
   header nav ul {
-    text-align: center;
-  }
-  header nav ul > li.btn-outline{
-    margin-top: 10px;
+  display:inline;
+  text-align: right;
+  float:none;
+  margin:0;
   }
 }
 header .hero {
