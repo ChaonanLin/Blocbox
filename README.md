@@ -1,2 +1,2 @@
 ## Blocbox
-*Chaonan Lin*
+*A project for Bloc.io's course
